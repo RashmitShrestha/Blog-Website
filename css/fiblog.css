@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    }
+
+    .links:link, .links:visited {
+    background-color: #F1F1D4;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    
+    }
+    
+    .links:hover, .links:active {
+    background-color: #f03a17;
+    color:#990000;
+    }
+    
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    }
+  
+    .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    vertical-align: baseline;
+
+  }
+    
+    .grid-item {
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+      border-radius: 50%;
+      color:#fff;
+    }
+    
+    .fab1 {
+    
+    color:#990000;
+    
+    }
+    
+    .fab1:link, .fab1:visited {
+    background-color: #CCCC66;
+    color: #fff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    
+    .fab1:hover, .fab1:active {
+    color:#f03a17;
+    }
+   
+    .socl {
+    
+    margin:0;
+    
+    }
+    
+    .fetty {
+    height:940px;
+    width:1400px;
+  }
+    
+    /* Style the header */
+    .header {
+    background-color: #f03a17;
+    padding: 1px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    color:#fff;
+    font-family: 'Permanent Marker', cursive;
+    width:100%;
+    
+    text-decoration: underline;
+    }
+    
+    /* Container for flexboxes */
+  
+    nav {
+    background-color:#F1F1D4 ;
+    }
+    
+    #ava {
+      height: 90px;
+      width: 90px;
+         }
+  
+  #feth {
+    font-family: 'Teko', sans-serif;
+    font-size: 65px;
+    color:#990000;
+    text-decoration: underline;
+  margin:5px;
+  }
+    
+    .fetp {
+    width:100%;
+    background-color: #F1F1D4;
+    margin:10px 0px 0px 0px;
+    height:auto;
+    padding:10px 50px 100px 50px;
+    box-sizing: border-box;
+      font-size: 20px;
+  text-align: justify;
+    }
+  
+    .fetc {
+    padding: 5px;
+    background-color: #F1F1D4;
+    border: 5px solid #f03a17;
+    
+    }
+    
+    /* Style the footer */
+    .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+    .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width:100% ;
+    padding: auto;
+    }
+    
+    #feth {
+      font-size: 45px;
+     
+    }
+
+    .grid-container {
+  
+      padding: 1px;
+      }
+
+    #ava {
+      height: 40px;
+      width: 40px;
+         }
+
+    .fetty {
+    height:320px;
+    width:100%;
+    
+    }
+    
+    #auth {
+  color:#f03a17;
+      font-size: 20px;
+      margin:5px;
+         }
+
+    .links {
+    font-size: 15px;
+    }
+    
+    .fetp {
+    width:100%;
+    margin:10px 0px 0px 0px;
+    height:auto;
+    padding:30px ;
+    box-sizing: border-box;
+    }
+    
+    .header {
+    font-size: 17px;
+    }
+    }
+  
+    @media (max-width: 1024px) {
+  .fetty {
+height: auto;
+    width: 100%;
+  }
+  }
+    
+    
+   

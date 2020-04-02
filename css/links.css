@@ -1,0 +1,74 @@
+.links:link, .links:visited {
+    background-color: #F1F1D4;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    
+    }
+    
+    .links:hover, .links:active {
+    background-color: #f03a17;
+    color:#990000;
+    }
+    
+ 
+    .fab1 {
+  
+        color:#990000;
+        
+        }
+        
+        .fab1:link, .fab1:visited {
+        background-color: #CCCC66;
+        color: #fff;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+        
+        .fab1:hover, .fab1:active {
+        color:#f03a17;
+        }
+        
+        
+      
+        
+        .fab2 {
+        background-color: #CCCC66;
+        color:#990000;
+        
+        }
+        
+        .fab2:link, .fab2:visited {
+        background-color: #CCCC66;
+        color: #fff;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+        
+        .fab2:hover, .fab2:active {
+        color:#f03a17;
+        }
+
+        @media (max-width: 600px) {
+        
+        
+            .links {
+                font-size: 15px;
+                }
+                
+        
+        
+        }
+
+
+
+
+
