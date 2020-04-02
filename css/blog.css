@@ -1,11 +1,11 @@
 
 
 
-@import "css/links.css";
+@import "links.css";
 
-@import "css/intro.css";
+@import "intro.css";
 
-@import "css/grid.css";
+@import "grid.css";
 
 
 * {
@@ -17,7 +17,7 @@
   }
   
   .col-3 {
-  width:50%
+  width:50%z
   }
   
   
