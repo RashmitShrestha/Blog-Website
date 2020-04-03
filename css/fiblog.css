@@ -39,7 +39,6 @@
       font-size: 30px;
       text-align: center;
       border-radius: 50%;
-      color:#fff;
     }
     
     .fab1 {
@@ -162,7 +161,7 @@
     }
     
     #auth {
-  color:#f03a17;
+  color:black;
       font-size: 20px;
       margin:5px;
          }
